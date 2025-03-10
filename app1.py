@@ -4,7 +4,7 @@ import openai
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
-openai.api_key = "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"
+openai.api_key = ""#openAI key
 
 WEATHER_API_KEY = "271cecc0792d4d5da3a220829250503"
 
