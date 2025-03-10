@@ -1,5 +1,5 @@
 # local_repository
-#Description
+# Description
 
 Local Explorer est une application web qui utilise Flask, OpenWeather et OpenAI pour :
 
@@ -9,7 +9,7 @@ Récupérer les informations météo de votre emplacement.
 
 Fournir des suggestions d'activités en fonction de la météo.
 
-#Fonctionnalités
+# Fonctionnalités
 
 Carte interactive avec géolocalisation.
 
@@ -17,7 +17,7 @@ Requête API météo pour afficher les conditions actuelles.
 
 Génération de suggestions d'activités grâce à OpenAI.
 
-#Prérequis
+# Prérequis
 
 Python 3.8+
 
@@ -25,7 +25,7 @@ Une clé API OpenWeather valide.
 
 Une clé API OpenAI valide.
 
-#Installation
+# Installation
 
 Clonez ce dépôt :
 
@@ -42,7 +42,7 @@ Remplacez WEATHER_API_KEY par votre clé OpenWeather.
 
 Remplacez openai.api_key par votre clé OpenAI.
 
-#Utilisation
+# Utilisation
 
 Démarrez l'application Flask :
 
@@ -56,7 +56,7 @@ La carte affichera votre position et récupérera automatiquement la météo.
 
 Vous verrez des recommandations d'activités basées sur la météo.
 
-#Structure du projet
+# Structure du projet
 
 /local_explorer
 │── app1.py                # Code principal Flask
